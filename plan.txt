@@ -1,0 +1,15 @@
+#phase 1#
+create basic program and design structure which can select the seats to travel to selected location and update the charges, 
+
+
+#phase 2#
+update phase 1 to a x to y program by implementing a current location to destination setting which can update the charges by x-> y setting.
+
+#phase 3#
+update phase 2 into a Crud program 
+
+#phase 4#
+join the signup/signin form to the project
+
+#final Phase#
+update the ui to a presentable level
