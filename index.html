@@ -10,7 +10,93 @@
   <body>
     <div class="mainBox">
       <label>Pick a destination</label>
+      <select id="destination">
+        <option value="400">Alpha</option>
+        <option value="650">Beta</option>
+        <option value="1000">Charlie</option>
+        <option value="400">Delta</option>
+        <option value="650">Echo</option>
+        <option value="1000">Foxtrot</option>
+      </select>
+      <!-- <select id="destination">
+        <option value="400">Alpha</option>
+        <option value="650">Beta</option>
+        <option value="1000">Charlie</option>
+        <option value="400">Delta</option>
+        <option value="650">Echo</option>
+        <option value="1000">Foxtrot</option>
+      </select> -->
     </div>
+
+    <div class="legend">
+      <li><div class="seat">N/A</div></li>
+      <li><div class="seat selected">selected</div></li>
+      <li><div class="seat occupied">occupied</div></li>
+    </div>
+
+    <div class="boggie">
+      <div class="driverPod"></div>
+      <div class="row">
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+      </div>
+
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+      </div>
+
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+      </div>
+
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+
+      <div class="row">
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+      </div>
+
+      <div class="row">
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+    </div>
+
+    <p class="text">
+      you have chosen <span id="count">0</span> seats for the cost of
+      <span id="total">0</span> rs
+    </p>
     <script src="booking.js"></script>
   </body>
 </html>
