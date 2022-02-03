@@ -8,117 +8,121 @@
     <link rel="stylesheet" href="designs.css" />
   </head>
   <body>
-    <div class="mainBox">
-      <label>Your PickUp Location</label>
-      <select id="location">
-        <option value="1">Alpha</option>
-        <option value="2">Beta</option>
-        <option value="3">Charlie</option>
-        <option value="4">Delta</option>
-        <option value="5">Echo</option>
-        <option value="6">Foxtrot</option>
-        <option value="7">golf</option>
-        <option value="8">hotel</option>
-        <option value="9">India</option>
-      </select>
-      <label>Your destination</label>
-      <select id="destination">
-        <option value="1">Alpha</option>
-        <option value="2">Beta</option>
-        <option value="3">Charlie</option>
-        <option value="4">Delta</option>
-        <option value="5">Echo</option>
-        <option value="6">Foxtrot</option>
-        <option value="7">golf</option>
-        <option value="8">hotel</option>
-        <option value="9">India</option>
-      </select>
+    <div class="a"></div>
+    <div class="buss">
+      <div class="mainBox">
+        <label>Your PickUp Location</label>
+        <select id="location">
+          <option value="1">Alpha</option>
+          <option value="2">Beta</option>
+          <option value="3">Charlie</option>
+          <option value="4">Delta</option>
+          <option value="5">Echo</option>
+          <option value="6">Foxtrot</option>
+          <option value="7">golf</option>
+          <option value="8">hotel</option>
+          <option value="9">India</option>
+        </select>
+        <label>Your destination</label>
+        <select id="destination">
+          <option value="1">Alpha</option>
+          <option value="2">Beta</option>
+          <option value="3">Charlie</option>
+          <option value="4">Delta</option>
+          <option value="5">Echo</option>
+          <option value="6">Foxtrot</option>
+          <option value="7">golf</option>
+          <option value="8">hotel</option>
+          <option value="9">India</option>
+        </select>
+      </div>
+
+      <div class="legend">
+        <li>
+          <div class="seat"></div>
+          <small>Available</small>
+        </li>
+        <li>
+          <div class="seat selected"></div>
+          <small>Selected</small>
+        </li>
+        <li>
+          <div class="seat occupied"></div>
+          <small>Occupied</small>
+        </li>
+      </div>
+
+      <div class="boggie">
+        <div class="frontGlass"></div>
+        <div class="Seat driver">Drivers<br />Pod</div>
+        <div class="row">
+          <div class="seat occupied"></div>
+          <div class="seat occupied"></div>
+          <div class="seat"></div>
+          <div class="seat occupied"></div>
+        </div>
+
+        <div class="row">
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat occupied"></div>
+          <div class="seat occupied"></div>
+        </div>
+
+        <div class="row">
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+        </div>
+        <hr color="black" width="80px" />
+
+        <br />
+        <hr color="black" width="80px" />
+        <div class="row">
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat occupied"></div>
+          <div class="seat occupied"></div>
+        </div>
+
+        <div class="row">
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+        </div>
+
+        <div class="row">
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+        </div>
+
+        <div class="row">
+          <div class="seat occupied"></div>
+          <div class="seat"></div>
+          <div class="seat occupied"></div>
+          <div class="seat occupied"></div>
+        </div>
+
+        <div class="row">
+          <div class="seat occupied"></div>
+          <div class="seat occupied"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+        </div>
+
+        <div class="lugguage">luggage</div>
+      </div>
+
+      <p class="text">
+        You have selected <span id="count">0</span> seats <br />for the cost of
+        <span id="total">0</span> Rupees.
+      </p>
     </div>
-
-    <div class="legend">
-      <li>
-        <div class="seat"></div>
-        <small>Available</small>
-      </li>
-      <li>
-        <div class="seat selected"></div>
-        <small>Selected</small>
-      </li>
-      <li>
-        <div class="seat occupied"></div>
-        <small>Occupied</small>
-      </li>
-    </div>
-
-    <div class="boggie">
-      <div class="frontGlass"></div>
-      <div class="Seat driver">Drivers<br />Pod</div>
-      <div class="row">
-        <div class="seat occupied"></div>
-        <div class="seat occupied"></div>
-        <div class="seat"></div>
-        <div class="seat occupied"></div>
-      </div>
-
-      <div class="row">
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat occupied"></div>
-        <div class="seat occupied"></div>
-      </div>
-
-      <div class="row">
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-      </div>
-      <hr color="black" width="80px" />
-
-      <br />
-      <hr color="black" width="80px" />
-      <div class="row">
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat occupied"></div>
-        <div class="seat occupied"></div>
-      </div>
-
-      <div class="row">
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-      </div>
-
-      <div class="row">
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-      </div>
-
-      <div class="row">
-        <div class="seat occupied"></div>
-        <div class="seat"></div>
-        <div class="seat occupied"></div>
-        <div class="seat occupied"></div>
-      </div>
-
-      <div class="row">
-        <div class="seat occupied"></div>
-        <div class="seat occupied"></div>
-        <div class="seat"></div>
-        <div class="seat"></div>
-      </div>
-
-      <div class="lugguage">luggage</div>
-    </div>
-
-    <p class="text">
-      You have selected <span id="count">0</span> seats <br />for the cost of
-      <span id="total">0</span> Rupees.
-    </p>
+    <div class="z"></div>
     <script src="booking.js"></script>
   </body>
 </html>

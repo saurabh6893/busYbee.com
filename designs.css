@@ -8,13 +8,14 @@
 /*3 font-family: 'Saira Semi Condensed', sans-serif; */
 
 body {
-  background-color: rgb(2, 102, 82);
+  /* background-color: rgb(2, 102, 82); */
+  background-color: rgb(0, 136, 106);
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   color: #ffffff;
   font-family: 'Signika', sans-serif;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   height: 100vh;
   margin: 0;
 }
@@ -27,7 +28,7 @@ body {
   background-color: #fff;
   border: 0;
   border-radius: 5px;
-  font-size: 14px;
+  font-size: 15px;
   margin: 0 15px 0 15px;
   padding: 5px 15px 5px 15px;
   -moz-appearance: none;
@@ -49,8 +50,7 @@ body {
   height: 40px;
   width: 90px;
   background-color: black;
-  position: relative;
-  left: 55%;
+  transform: translateX(60%);
   border-radius: 5px;
   color: black;
   font-size: 15px;
@@ -63,13 +63,12 @@ body {
 }
 
 .frontGlass {
-  position: relative;
+  position: absolute;
   top: -3%;
-  right: 4%;
-  height: 10px;
-  width: 108%;
+  height: 13px;
+  width: 100%;
   background-color: white;
-  box-shadow: 0px 10px 30px wheat;
+  box-shadow: 0px 15px 20px wheat;
   border-radius: 100px 100px 0 0;
   margin-bottom: 15px;
   border: 4px solid black;
@@ -94,13 +93,14 @@ body {
 
 .legend {
   margin-bottom: 2%;
-  border-radius: 20px;
+  border-radius: 10px;
   padding: 5px 10px;
   list-style-type: none;
+  font-size: 20px;
   display: flex;
   justify-content: space-between;
   background-color: #7ee8fa;
-  background-image: linear-gradient(315deg, #004e3d 40%, #008b6f 74%);
+  background-image: linear-gradient(250deg, #004e3d 30%, #008b6f 74%);
 }
 .legend li {
   display: flex;
@@ -138,13 +138,23 @@ body {
 }
 
 .boggie {
+  margin-top: 20%;
   padding: 1px 5px 10px 5px;
+  background-color: rgb(0, 156, 83);
   border: 3px solid black;
-  border-radius: 0 0 60px 60px;
+  display: flex;
+  transform: translateX(50%);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px 10px 60px 60px;
+  height: 160%;
+  width: 50%;
 }
 
 .lugguage {
   height: 30px;
+  width: 95%;
   border: 5px solid black;
   border-radius: 0 0 80px 80px;
   border-color: #004e3d;
@@ -159,4 +169,19 @@ body {
 
 .lugguage:hover {
   color: white;
+}
+
+.a {
+  border: 4px solid black;
+  width: 30%;
+  background-color: #000000;
+  background-image: linear-gradient(180deg, #000000 0%, #434343 74%);
+  height: 100vh;
+}
+
+.z {
+  border: 4px solid black;
+  width: 30%;
+  height: 100vh;
+  background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
 }
