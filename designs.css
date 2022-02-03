@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@500&display=swap');
 * {
   box-sizing: border-box;
 }
+
+/*3 font-family: 'Saira Semi Condensed', sans-serif; */
 
 body {
   background-color: rgb(2, 102, 82);
@@ -13,7 +15,7 @@ body {
   font-family: 'Signika', sans-serif;
   align-items: center;
   justify-content: center;
-  height: 150vh;
+  height: 100vh;
   margin: 0;
 }
 
@@ -26,7 +28,7 @@ body {
   border: 0;
   border-radius: 5px;
   font-size: 14px;
-  margin-left: 20px;
+  margin: 0 15px 0 15px;
   padding: 5px 15px 5px 15px;
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -104,11 +106,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 15px;
+  margin: 2px 15px;
 }
 
 .legend li small {
   margin-left: 2px;
+  margin-bottom: 15px;
 }
 
 .legend .seat:not(.occupied):hover {
@@ -121,8 +124,11 @@ body {
 }
 
 .text {
+  position: absolute;
+  bottom: 10%;
+  left: 2%;
   margin: 7% 50% 0 0;
-  font-family: 'Bad Script', cursive;
+  font-family: 'Saira Semi Condensed', sans-serif;
   font-weight: bold;
   font-size: 30px;
 }
@@ -138,12 +144,12 @@ body {
 }
 
 .lugguage {
-  height: 50px;
+  height: 30px;
   border: 5px solid black;
   border-radius: 0 0 80px 80px;
   border-color: #004e3d;
   display: flex;
-  font-size: 1.5em;
+  font-size: 0.8em;
   color: rgb(2, 102, 82);
   font-family: 'Helvetica Neue';
   align-items: center;
